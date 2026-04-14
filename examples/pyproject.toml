@@ -5,10 +5,15 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "deepagents>=0.4.12",
     "envdot>=1.0.29",
+    "grandalf>=0.8",
     "httpx[socks]>=0.28.1",
     "langchain>=1.2.13",
     "langchain-deepseek>=1.0.1",
+    "langchain-mcp-adapters>=0.2.2",
     "langchain-ollama>=1.0.1",
+    "langgraph-checkpoint-sqlite>=3.0.3",
+    "mcp>=1.27.0",
     "pathlib3>=1.0.14",
 ]
